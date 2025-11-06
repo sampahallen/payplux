@@ -4,12 +4,12 @@ import ux from "../../assets/ux.png";
 
 const Service = () => {
   return (
-    <section className="bg-gray-50 max-h-[650px]">
+    <section className="bg-gray-50 max-h-[650px] lg:w-full mt-15 md:mt-0">
       <div className="flex flex-col justify-center items-center">
-        <h1 className="font-semibold tracking-wide text-[31px] text-slate-800 mt-25 mb-10">
+        <h1 className="font-semibold tracking-wide text-[31px] text-slate-800 mt-15 lg:mt-25 mb-10">
           Always here for you!
         </h1>
-        <div className="flex flex-row gap-20 justify-center items-center">
+        <div className="flex flex-col lg:flex-row gap-13 lg:gap-20 justify-center items-start">
           <div className="flex flex-row gap-4 justify-center items-center">
             <div className="bg-white p-4 rounded-full">
               <img src={ux} alt="" className="w-[25px] h-[25px] " />
@@ -54,12 +54,12 @@ const Service = () => {
           </div>
         </div>
 
-        <div className="min-w-[1100px] min-h-[450px] px-4 py-5 mt-12 shadow-[0px_0px_6px_2px_rgba(100,_100,_111,_0.2)] rounded-md">
+        <div className=" min-w-[470px] min-h-[500px] md:min-w-[730px] lg:min-w-[80%]  md:min-h-[500px] px-4 py-5 mt-12 shadow-[0px_0px_6px_2px_rgba(100,_100,_111,_0.2)] rounded-md mb-10">
           <div className="flex flex-row justify-between">
-            <p className="text-[12px] text-gray-300 font-semibold font-sans mr-40">
+            <p className="text-[12px] text-gray-300 font-semibold font-sans  lg:mr-40">
               PRODUCT
             </p>
-            <div className="flex flex-row gap-10">
+            <div className="hidden md:flex flex-row gap-10 ">
               <p className="text-[12px] text-gray-300 font-semibold font-sans">
                 PRICE
               </p>
@@ -67,10 +67,10 @@ const Service = () => {
                 CHANGE
               </p>
             </div>
-            <p className="text-[12px] text-gray-300 font-semibold font-sans">
+            <p className="text-[12px] text-gray-300 font-semibold font-sans hidden lg:flex">
               CHART
             </p>
-            <p className="text-[12px] text-gray-300 font-semibold font-sans mr-40">
+            <p className="text-[12px] text-gray-300 font-semibold font-sans mr-35 md:mr-40">
               ACTIONS
             </p>
           </div>
