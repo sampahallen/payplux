@@ -1,5 +1,4 @@
 import { features } from "../../constants";
-import bulk from "../../assets/bulk-buy@3x.jpg";
 import { useState } from "react";
 
 const Features = () => {

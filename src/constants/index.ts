@@ -68,4 +68,23 @@ const features = [
   },
 ];
 
-export { navLinks, navReg, features };
+const steps = [
+  {
+    id:1,
+    step: "Sign up"
+  },
+  {
+    id:2,
+    step: "Login"
+  },
+  {
+    id:3,
+    step: "Place order"
+  },
+  {
+    id:4,
+    step: "Recieve order"
+  }
+];
+
+export { navLinks, navReg, features, steps };
