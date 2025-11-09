@@ -70,21 +70,96 @@ const features = [
 
 const steps = [
   {
-    id:1,
-    step: "Sign up"
+    id: 1,
+    step: "Sign up",
   },
   {
-    id:2,
-    step: "Login"
+    id: 2,
+    step: "Login",
   },
   {
-    id:3,
-    step: "Place order"
+    id: 3,
+    step: "Place order",
   },
   {
-    id:4,
-    step: "Recieve order"
-  }
+    id: 4,
+    step: "Recieve order",
+  },
 ];
 
-export { navLinks, navReg, features, steps };
+const footerLinks = [
+  {
+    name: "Company",
+    links: [
+      {
+        id: "",
+        name: "About",
+      },
+      {
+        id: "",
+        name: "Support",
+      },
+      {
+        id: "",
+        name: "Buy",
+      },
+      {
+        id: "",
+        name: "Sell",
+      },
+    ],
+  },
+  {
+    name: "Legal",
+    links: [
+            {
+        id: "",
+        name: "Privacy Policy"
+      },
+            {
+        id: "",
+        name: "Terms and Conditions"
+      }
+    ],
+  },
+  {
+    name: "Support",
+    links: [
+            {
+        id: "",
+        name: "Create an Account"
+      },
+            {
+        id: "",
+        name: "Fund your Prepaid Wallet"
+      },
+            {
+        id: "",
+        name: "How to Buy Digital Currency"
+      },
+            {
+        id: "",
+        name: "How to Sell Digital Currency"
+      }
+    ],
+  },
+  {
+    name: "Social",
+    links: [
+            {
+        id: "",
+        name: "Facebook"
+      },
+            {
+        id: "",
+        name: "Twitter"
+      },
+            {
+        id: "",
+        name: "Instagram"
+      }
+    ],
+  },
+];
+
+export { navLinks, navReg, features, steps, footerLinks };

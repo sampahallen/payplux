@@ -2,7 +2,9 @@ import Navbar from "../components/Navbar"
 import Hero from "../components/home/Hero"
 import Service from "../components/home/Service"
 import Features from "../components/home/Features"
-import Info from "../components/home/Info"
+import Ref from "../components/home/Ref"
+import Info from "../components/Info"
+import Footer from "../components/Footer"
 
 const HomePage = () => {
   return (
@@ -11,7 +13,9 @@ const HomePage = () => {
         <Hero />
         <Service />
         <Features />
+        <Ref />
         <Info />
+        <Footer />
     </div>
   )
 }
