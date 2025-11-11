@@ -5,7 +5,7 @@ import { NavLink } from "react-router";
 
 const Ref = () => {
   return (
-    <section className="bg-gray-50 mt-45 py-20">
+    <section className="bg-gray-50 mt-45 lg:mt-20 py-20">
       <div className="flex flex-col md:flex-row lg:flex-row-reverse items-center justify-center px-4 md:px-15 md:gap-5">
         <div className="flex flex-col gap-5 md:gap-9">
           <h1 className="text-[30px] md:text-[28px] text-slate-900 leading-[40px] font-semibold">
