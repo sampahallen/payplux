@@ -13,30 +13,30 @@ const navLinks = [
     name: "Home",
   },
   {
-    id: "",
+    id: "/about",
     name: "About",
   },
   {
-    id: "",
+    id: "/buy",
     name: "Buy",
   },
   {
-    id: "",
+    id: "/sell",
     name: "Sell",
   },
   {
-    id: "",
+    id: "/support",
     name: "Support",
   },
 ];
 
 const navReg = [
   {
-    id: "",
+    id: "/login",
     name: "Login",
   },
   {
-    id: "",
+    id: "/signup",
     name: "Get Started",
   },
 ];
