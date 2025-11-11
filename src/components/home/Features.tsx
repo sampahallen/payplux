@@ -5,8 +5,9 @@ const Features = () => {
   const [activeIndex, setActiveIndex] = useState(0);
 
   return (
-    <section className="mt-[300px] h-[100%] px-5 overflow-hidden ">
-      <div className="flex flex-col gap-14 lg:gap-8">
+    <section className=" flex items-center justify-center mt-[300px] h-[100%] px-5 overflow-hidden ">
+      <div>
+        <div className="flex flex-col gap-14 lg:gap-8">
         <h1 className="font-sans  font-semibold text-[30px] text-blue-950 text-center">
           The <span className="text-blue-500">best</span> experience always. You
           mean the most to us!
@@ -38,13 +39,13 @@ const Features = () => {
           </div>
         ))}
 
-        <div className="relative lg:flex items-center flex-row hidden py-70 gap-10">
-          <div className="flex flex-col gap-7  ">
+        <div className="relative lg:flex items-center justify-start flex-row hidden py-50 gap-10 lg:min-w-[900px] xl:min-w-[1150px] ">
+          <div className="flex flex-col gap-7">
             {features.map((feature, index) => (
               <div
                 key={index}
                 onClick={() => setActiveIndex(index)}
-                className= {`flex flex-row gap-8 items-center justify-center ml-30 cursor-pointer ${activeIndex === index ? 'bg-blue-500 py-4 pl-4 pr-8 rounded-sm' : ''}`}
+                className= {`flex flex-row gap-8 items-center justify-center cursor-pointer ${activeIndex === index ? 'bg-blue-500 py-4 pl-4 pr-8 rounded-sm' : ''}`}
               >
                 <img
                   src={feature.image}
@@ -66,6 +67,7 @@ const Features = () => {
             <img src={features[activeIndex].main} alt="" className="absolute w-[1100px] h-[900px]" />
           </div>
         </div>
+      </div>
       </div>
     </section>
   );
