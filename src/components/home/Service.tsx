@@ -55,7 +55,7 @@ const Service = () => {
             </div>
           </div>
 
-          <div className=" min-w-[470px] min-h-[500px] md:min-w-[730px] lg:min-w-[80%]  md:min-h-[500px] px-4 md:px-6 py-5 mt-12 shadow-[0px_0px_6px_2px_rgba(100,_100,_111,_0.2)] rounded-md mb-10">
+          <div className=" min-w-[360px] min-h-[500px] md:min-w-[730px] lg:min-w-[80%]  md:min-h-[500px] px-4 md:px-6 py-5 mt-12 shadow-[0px_0px_6px_2px_rgba(100,_100,_111,_0.2)] rounded-md mb-10">
             <div className="flex flex-row justify-between">
               <p className="text-[12px] text-gray-300 font-semibold font-sans  lg:mr-40">
                 PRODUCT
