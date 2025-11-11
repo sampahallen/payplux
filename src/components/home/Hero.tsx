@@ -26,7 +26,7 @@ const Hero = () => {
             </p>
 
             <NavLink
-              to="/signup"
+              to=""
               className={({ isActive }) =>
                 `bg-blue-500 text-white text-[15px] font-semibold rounded-lg w-full md:max-w-[340px] text-center py-4 md:px-30  lg:py-6 ${
                   isActive ? "border-4 border-sky-200" : "border-0"
