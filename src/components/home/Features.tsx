@@ -5,7 +5,7 @@ const Features = () => {
   const [activeIndex, setActiveIndex] = useState(0);
 
   return (
-    <section className="mt-[450px] px-5">
+    <section className="mt-[450px] min-h-full px-5">
       <div className="flex flex-col gap-14">
         <h1 className="font-sans  font-semibold text-[30px] text-blue-950 text-center">
           The <span className="text-blue-500">best</span> experience always. You
@@ -38,7 +38,7 @@ const Features = () => {
           </div>
         ))}
 
-        <div className="relative lg:flex flex-row hidden gap-10 overflow-hidden">
+        <div className="relative lg:flex flex-row hidden gap-10 overflow-x-hidden">
           <div className="flex flex-col gap-10 py-40 ">
             {features.map((feature, index) => (
               <div
@@ -63,7 +63,7 @@ const Features = () => {
             ))}
           </div>
           <div>
-            <img src={features[activeIndex].main} alt="" className="absolute " />
+            <img src={features[activeIndex].main} alt="" className="absolute" />
           </div>
         </div>
       </div>
