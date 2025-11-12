@@ -2,7 +2,7 @@
 
 @theme {
     --font-sans: 'Public Sans', 'sans-serif';
-    /* --breakpoint-lg: 1065px; */
+    --breakpoint-xs: 460px;
 }
 
 @import "tailwindcss";
