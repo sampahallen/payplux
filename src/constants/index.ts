@@ -92,7 +92,7 @@ const footerLinks = [
     name: "Company",
     links: [
       {
-        id: "",
+        id: "/about",
         name: "About",
       },
       {
@@ -162,4 +162,12 @@ const footerLinks = [
   },
 ];
 
-export { navLinks, navReg, features, steps, footerLinks };
+const benefits = [
+  "Discount Rates",
+  "Discount Coupons",
+  "Prepaid Top Up Coupons",
+  "Souvenirs",
+  "Gifts"
+]
+
+export { navLinks, navReg, features, steps, footerLinks, benefits };
