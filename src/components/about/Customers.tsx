@@ -4,8 +4,8 @@ import { benefits } from "../../constants";
 
 const Customers = () => {
   return (
-    <section className="bg-gray-50 flex flex-col  items-center justify-center px-10 pt-4 md:pt-1 xl:pt-70 pb-20 md:pb-15 xl:pb-30 mt-6">
-      <div className="flex flex-col md:flex-row  md:items-center w-[350px] xs:min-w-[450px] xs:max-w-[500px] md:min-w-[700px] lg:min-w-[900px] xl:min-w-[1150px]">
+    <section className="bg-gray-50 flex flex-col  items-center justify-center px-5 xs:px-10 pt-4 md:pt-1 xl:pt-70 pb-20 md:pb-15 xl:pb-30 mt-6">
+      <div className="flex flex-col md:flex-row  md:items-center   xs:min-w-[450px] xs:max-w-[500px] md:min-w-[700px] lg:min-w-[900px] xl:min-w-[1150px]">
         <div className="flex flex-col gap-10 md:w-[50%]">
           <h1 className="text-[27px] md:text-[32px] lg:text-[35px] leading-[35px] md:leading-[40px] lg:leading-[42px] font-medium">
             Loyal <span className="text-blue-500">Customers</span> <br />
