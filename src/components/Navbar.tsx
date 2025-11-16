@@ -9,8 +9,8 @@ const Navbar = () => {
   const toggleMenu = () => setIstoggle(!istoggle);
   return (
     <section className="fixed flex flex-col items-center justify-center top-0 left-0 w-full z-1000 bg-white">
-      <div className="">
-        <div className="flex flex-row justify-between items-center min-w-full w-[400px] xs:min-w-[500px]  md:min-w-[900px] lg:min-w-[1100px] xl:min-w-[1450px]  max-sm:px-5 md:px-25 lg:px-[11%] px-4 py-6 ">
+ 
+        <div className="flex flex-row justify-between items-center w-full max-w-[500px] xs:min-w-[500px]  md:min-w-[900px] lg:min-w-[1100px] xl:min-w-[1450px]  max-sm:px-5 md:px-25 lg:px-[11%] px-4 py-6 ">
           <div className="flex flex-row justify-center items-center gap-[9%]">
             <img src={logo} alt="" className=" lg:w-[145px] md: w-[135px] " />
             <nav className="lg:flex hidden">
@@ -125,7 +125,7 @@ const Navbar = () => {
           </div>
         </div>
        
-      </div>
+
       <hr className="w-full border-gray-100" /> 
     </section>
   );
