@@ -6,7 +6,7 @@ import right from "../../assets/right-mobile@3x.png";
 const Download = () => {
   return (
     <section className="flex items-center justify-center md:py-20 ">
-      <div className="relative bg-[#061f3c] flex flex-col min-w-[340px] w-[486px]  xs:min-w-[486px] xs:w-[550px] md:min-w-[680px] lg:min-w-[900px] xl:min-w-[1200px] md:rounded-t-2xl items-center py-15 gap-8 md:gap-10 shadow-[0px_4px_6px_5px_rgba(0,_0,_0,_0.1)] overflow-hidden">
+      <div className="relative bg-[#061f3c] flex flex-col min-w-[340px] w-[486px]  xs:min-w-[486px] xs:w-[550px] md:min-w-[680px] lg:min-w-[900px] xl:min-w-[1200px] md:rounded-t-2xl items-center py-15 gap-8 md:gap-10 shadow-[0px_4px_6px_5px_rgba(0,_0,_0,_0.1)] overflow-hidden ">
         <img
           src={left}
           alt=""
@@ -17,7 +17,7 @@ const Download = () => {
           alt=""
           className="absolute right-[-120px] lg:right-[-10px] hidden md:flex bottom-0 md:w-[280px] lg:w-[290px] z-0"
         />
-        <h1 className="text-white text-[30px] lg:text-[35px] text-center leading-[40px] font-medium">
+        <h1 className="text-white text-[28px] lg:text-[35px] text-center leading-[40px] font-latin font-medium">
           Download the <br />
           <span className="text-blue-500">PayPlux</span> mobile app
         </h1>

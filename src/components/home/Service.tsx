@@ -7,7 +7,7 @@ const Service = () => {
     <section className=" bg-gray-50 flex items-center justify-center  lg:w-full mt-15 md:mt-0">
       <div className=" max-h-[750px]">
         <div className="flex flex-col justify-center items-center">
-          <h1 className="font-semibold tracking-wide text-[31px] text-slate-800 mt-15 lg:mt-25 mb-10">
+          <h1 className="font-latin font-medium tracking-wide text-[31px] text-slate-800 mt-15 lg:mt-25 mb-10">
             Always here for you!
           </h1>
           <div className="flex flex-col lg:flex-row gap-13 lg:gap-20 justify-center items-start">
@@ -17,10 +17,10 @@ const Service = () => {
               </div>
 
               <div className="flex flex-col">
-                <h1 className="font-sans font-semibold  text-[17px] text-slate-800">
+                <h1 className="font-latin font-medium  text-[17px] text-slate-800">
                   Great user experience
                 </h1>
-                <p className="font-sans font-light text-[14px] text-slate-500">
+                <p className="font-latin font-light text-[14px] text-slate-500">
                   Use PayPlux with ease
                 </p>
               </div>
@@ -31,10 +31,10 @@ const Service = () => {
               </div>
 
               <div className="flex flex-col ">
-                <h1 className="font-sans font-semibold text-[17px] text-slate-800">
+                <h1 className="font-latin font-medium text-[17px] text-slate-800">
                   Heroic Support
                 </h1>
-                <p className="font-sans font-light text-[14px] text-slate-500">
+                <p className="font-latin font-light text-[14px] text-slate-500">
                   Have a problem? Give us a call
                 </p>
               </div>
@@ -45,33 +45,33 @@ const Service = () => {
               </div>
 
               <div className="flex flex-col">
-                <h1 className="font-sans font-semibold text-[17px] text-slate-800">
+                <h1 className="font-latin font-medium text-[17px] text-slate-800">
                   24/7 Automated Service
                 </h1>
-                <p className="font-sans font-light text-[14px] text-slate-500">
+                <p className="font-latin font-light text-[14px] text-slate-500">
                   Transact at any time
                 </p>
               </div>
             </div>
           </div>
 
-          <div className="min-w-[340px] min-h-[450px]  xs:min-w-[470px]  xs:min-h-[500px] md:min-w-[730px] lg:min-w-[80%]  md:min-h-[500px] px-4 md:px-6 py-5 mt-12 shadow-[0px_0px_6px_2px_rgba(100,_100,_111,_0.2)] rounded-md mb-10">
+          <div className="min-w-[340px] min-h-[450px]  xs:min-w-[470px]  xs:min-h-[500px] md:min-w-[730px] lg:min-w-[80%]  md:min-h-[500px] px-4 md:px-6 py-5 mt-12 shadow-[0px_0px_6px_2px_rgba(100,100,111,0.2)] rounded-md mb-10">
             <div className="flex flex-row justify-between">
-              <p className="text-[12px] text-gray-300 font-semibold font-sans  lg:mr-40">
+              <p className="text-[12px] text-gray-300 font-medium font-latin  lg:mr-40">
                 PRODUCT
               </p>
               <div className="hidden md:flex flex-row gap-10 ">
-                <p className="text-[12px] text-gray-300 font-semibold font-sans">
+                <p className="text-[12px] text-gray-300 font-medium font-latin">
                   PRICE
                 </p>
-                <p className="text-[12px] text-gray-300 font-semibold font-sans">
+                <p className="text-[12px] text-gray-300 font-medium font-latin">
                   CHANGE
                 </p>
               </div>
-              <p className="text-[12px] text-gray-300 font-semibold font-sans hidden lg:flex">
+              <p className="text-[12px] text-gray-300 font-medium font-latin hidden lg:flex">
                 CHART
               </p>
-              <p className="text-[12px] text-gray-300 font-semibold font-sans mr-35 md:mr-40">
+              <p className="text-[12px] text-gray-300 font-medium font-latin mr-35 md:mr-40">
                 ACTIONS
               </p>
             </div>

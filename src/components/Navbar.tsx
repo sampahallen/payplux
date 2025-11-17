@@ -16,7 +16,7 @@ const Navbar = () => {
             <nav className="lg:flex hidden">
               <ul className="flex flex-row gap-[15%]  hover:text-blue-500">
                 {navLinks.map((link) => (
-                  <li key={link.id} className="font-sans cursor-pointer ">
+                  <li key={link.id} className="font-latin cursor-pointer ">
                     <NavLink
                       to={link.id}
                       className={({ isActive }) =>
@@ -36,7 +36,7 @@ const Navbar = () => {
             <div className="flex flex-row justify-center items-center gap-7 md:flex hidden">
               <NavLink
                 to=""
-                className="font-sans font-semibold text-blue-500 text-[16px] cursor-pointer"
+                className="font-latin font-semibold text-blue-500 text-[16px] cursor-pointer"
               >
                 Login
               </NavLink>
@@ -83,13 +83,13 @@ const Navbar = () => {
                 >
                   <ul className="flex flex-col gap-7 items-start  ">
                     {navLinks.map((link) => (
-                      <li key={link.id} className="font-sans cursor-pointer ">
+                      <li key={link.id} className="font-latin cursor-pointer ">
                         <NavLink
                           to={link.id}
                           className={({ isActive }) =>
                             isActive
-                              ? "text-blue-500 font-semibold text-[15.5px]"
-                              : "text-black  text-[15.5px] font-semibold hover:text-blue-500"
+                              ? "text-blue-500 font-medium text-[15.5px]"
+                              : "text-black  text-[15.5px] font-medium hover:text-blue-500"
                           }
                         >
                           {link.name}
@@ -102,8 +102,8 @@ const Navbar = () => {
                       to="/signup"
                       className={({ isActive }) =>
                         isActive
-                          ? "bg-white py-3 md:py-3 lg:py-3 border-4 border-sky-200 px-[33px]  lg:px-11 rounded-lg  text-[15px] lg:text-[16px] font-semibold text-blue-500 md:text-[15px] cursor-pointer"
-                          : "bg-white py-3 md:py-3 lg:py-3 px-[32px]  lg:px-11 border-1 border-blue-500 rounded-lg text-15px lg:text-[16px] font-semibold text-blue-500 md:text-[15px] cursor-pointer"
+                          ? "font-latin bg-white py-3 md:py-3 lg:py-3 border-4 border-sky-200 px-[33px]  lg:px-11 rounded-lg  text-[15px] lg:text-[16px] font-medium text-blue-500 md:text-[15px] cursor-pointer"
+                          : "font-latin bg-white py-3 md:py-3 lg:py-3 px-[32px]  lg:px-11 border-1 border-blue-500 rounded-lg text-15px lg:text-[16px] font-medium text-blue-500 md:text-[15px] cursor-pointer"
                       }
                     >
                       Login
@@ -112,8 +112,8 @@ const Navbar = () => {
                       to="/signup"
                       className={({ isActive }) =>
                         isActive
-                          ? "bg-blue-500 py-3 md:py-3 lg:py-3 border-4 border-sky-200 px-[14px] md:px-3 lg:px-11 rounded-lg text-[15px] text-white lg:text-[16px] font-semibold text-white md:text-[15px] cursor-pointer"
-                          : "bg-blue-500 py-3 md:py-3 lg:py-3 px-[14px] md:px-3 lg:px-11 border-0 rounded-lg text-white text-[15px] lg:text-[16px] font-semibold text-white md:text-[15px] cursor-pointer"
+                          ? "font-latin bg-blue-500 py-3 md:py-3 lg:py-3 border-4 border-sky-200 px-[14px] md:px-3 lg:px-11 rounded-lg text-[15px] text-white lg:text-[16px] font-medium text-white md:text-[15px] cursor-pointer"
+                          : "font-latin bg-blue-500 py-3 md:py-3 lg:py-3 px-[14px] md:px-3 lg:px-11 border-0 rounded-lg text-white text-[15px] lg:text-[16px] font-medium text-white md:text-[15px] cursor-pointer"
                       }
                     >
                       Get Started

@@ -5,14 +5,14 @@ const Features = () => {
   const [activeIndex, setActiveIndex] = useState(0);
 
   return (
-    <section className=" flex items-center justify-center mt-[300px] h-[100%] px-5 overflow-hidden ">
+    <section className=" flex items-center justify-center mt-[300px] h-full px-5 overflow-hidden ">
       <div>
         <div className="flex flex-col gap-14 lg:gap-8">
-        <h1 className="font-sans  font-semibold text-[30px] text-blue-950 text-center">
+        <h1 className="font-latin  font-medium text-[30px] text-blue-950 text-center">
           The <span className="text-blue-500">best</span> experience always. You
           mean the most to us!
         </h1>
-        <p className="font-sans text-[19px] text-slate-500 text-center">
+        <p className="font-latin text-[19px] text-slate-500 text-center">
           PayPlux has all these features for your comfort
         </p>
 
@@ -21,13 +21,13 @@ const Features = () => {
             <img
               src={feauture.image}
               alt=""
-              className="p-3 rounded-full shadow-[0px_2px_6px_2px_rgba(100,_100,_111,_0.2)]"
+              className="p-3 rounded-full shadow-[0px_2px_6px_2px_rgba(100,100,111,0.2)]"
             />
             <div className="flex flex-col items-center justify-center gap-1">
-              <h1 className="font-sans text-[18px] font-medium">
+              <h1 className="font-latin text-[18px] font-medium">
                 {feauture.header}
               </h1>
-              <p className="font-sans text-[17px] max-w-[380px] text-slate-500 text-center">
+              <p className="font-latin text-[15px] max-w-[330px] text-slate-500 text-center">
                 {feauture.text}
               </p>
             </div>
@@ -53,10 +53,10 @@ const Features = () => {
                   className="p-3 bg-white rounded-full shadow-[0px_2px_6px_2px_rgba(100,_100,_111,_0.2)]"
                 />
                 <div className="flex flex-col">
-                  <h1 className={`font-sans text-[16px] font-medium ${activeIndex === index ? 'text-white' : ''}`}>
+                  <h1 className={`font-latin text-[16px] font-medium ${activeIndex === index ? 'text-white' : ''}`}>
                     {feature.header}
                   </h1>
-                  <p className={`max-w-[300px] font-sans text-[16px]  ${activeIndex === index ? 'text-gray-200' : 'text-slate-500'}`}>
+                  <p className={`max-w-[300px] font-latin text-[16px]  ${activeIndex === index ? 'text-gray-200' : 'text-slate-500'}`}>
                     {feature.text}
                   </p>
                 </div>
