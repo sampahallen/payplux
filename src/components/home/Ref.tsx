@@ -8,7 +8,7 @@ const Ref = () => {
     <section className="bg-gray-50 flex flex-col gap-30 lg:gap-40 items-center justify-center mt-45 lg:mt-20 py-20 lg:mb-30 xl:mb-10 overflow-x-hidden">
       <div className="flex flex-col md:flex-row lg:flex-row-reverse md:items-center md:justify-center px-4 md:px-15 md:gap-5 lg:gap-0 xs:min-w-[480px] md:min-w-[800px] lg:min-w-[800px] xl:min-w-[1100px]">
         <div className="flex flex-col md:w-[50%] gap-5 md:gap-9  xl:pl-15">
-          <h1 className="text-[30px] md:text-[28px] lg:text-[35px] text-slate-900 leading-[40px] font-latin font-medium lg:font-medium">
+          <h1 className="text-[30px] md:text-[28px] lg:text-[35px] text-slate-900 leading-10 font-latin font-medium lg:font-medium">
             Spread the good news <br />
             and <span className="text-blue-500">make money</span> <br className="flex xs:hidden md:flex lg:hidden"/>doing <br className="hidden xs:flex md:hidden lg:flex"/>
             so!

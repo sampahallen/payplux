@@ -168,6 +168,32 @@ const benefits = [
   "Prepaid Top Up Coupons",
   "Souvenirs",
   "Gifts"
-]
+];
 
-export { navLinks, navReg, features, steps, footerLinks, benefits };
+const currencies = [
+  "Bitcoin",
+  "Perfect Money",
+  "Litecoin",
+  "Ethereum"
+];
+
+const processes =[
+  {
+    id: 1,
+    item: "Choose digital currency to buy",
+  },
+  {
+    id: 2,
+    item: "Complete the order details: amount to purchase, priority fees, etc.",
+  },
+  {
+    id: 3,
+    item: "Choose preferred payment method",
+  },
+  {
+    id: 4,
+    item: "Complete your order and wait for your account to be credited",
+  },
+];
+
+export { navLinks, navReg, features, steps, footerLinks, benefits, currencies, processes };

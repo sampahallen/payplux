@@ -44,8 +44,8 @@ const Navbar = () => {
                 to="/signup"
                 className={({ isActive }) =>
                   isActive
-                    ? "bg-blue-500 md:py-1. lg:py-3 border-4 border-sky-200 md:px-5 lg:px-11 rounded-lg text-white lg:text-[16px] font-semibold text-white md:text-[15px] cursor-pointer"
-                    : "bg-blue-500 md:py-1 lg:py-3 md:px-5 lg:px-11 border-0 rounded-lg text-white lg:text-[16px] font-semibold text-white md:text-[15px] cursor-pointer"
+                    ? "bg-blue-500 md:py-1. lg:py-3 border-4 border-sky-200 md:px-5 lg:px-11 rounded-lg text-white lg:text-[16px] font-semibold md:text-[15px] cursor-pointer"
+                    : "bg-blue-500 md:py-1 lg:py-3 md:px-5 lg:px-11 border-0 rounded-lg lg:text-[16px] font-semibold text-white md:text-[15px] cursor-pointer"
                 }
               >
                 Get Started

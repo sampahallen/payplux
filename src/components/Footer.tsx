@@ -4,7 +4,7 @@ import { NavLink } from "react-router";
 
 const Footer = () => {
   return (
-    <footer className="px-4 pt-40 pb-25 md:py-20 lg:pt-50 lg:pb-15 flex items-center justify-center ">
+    <footer className="px-4 pt-40 pb-25 md:py-20 lg:pt-40 lg:pb-15 flex items-center justify-center ">
       <div className="flex  flex-col lg:flex-row lg:items-start lg:justify-between min-w-[340px] w-[460px] xs:min-w-[460px] md:min-w-[690px] lg:min-w-[900px] xl:min-w-[1200px]">
         <div className="flex flex-col gap-4 ">
           <img src={logo} alt="" className="w-[120px]" />
