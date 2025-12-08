@@ -16,14 +16,14 @@ const Buy = () => {
           currency of choice, i.e. Bitcoin, Perfect Money, Ethereum, Litecoin.
         </p>
       </div>
-      <div className="flex flex-col md:flex-row-reverse md:items-center md:justify-center gap-20 md:gap-10">
+      <div className="flex flex-col md:flex-row-reverse md:items-center md:justify-center gap-20 md:gap-10 lg:gap-20">
         <div className="flex items-center justify-center">
           <div className="flex flex-col gap-10 items-start pt-25 px-5 ">
             <h1 className="font-latin tracking-tight font-medium text-[30px]">
               What I can <span className="text-blue-500">Buy</span> on <br />
               Payplux
             </h1>
-            <p className="font-latin text-[17px] text-slate-500 max-w-[480px] md:max-w-[320px]">
+            <p className="font-latin text-[17px] text-slate-500 max-w-[480px] md:max-w-[320px] lg:max-w-[400px]">
               PayPlux is a digital currency service provider that allows you to
               buy digital currencies including both crypto and non crypto
               assets. We have in stock:

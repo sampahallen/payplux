@@ -4,7 +4,7 @@ import hero from "../../assets/hero-browser-shots-buy@3x.png";
 const Hero = () => {
   return (
     <section className="flex flex-col md:flex-row items-center justify-center md:justify-end gap-20 md:gap-0 pt-35 md:pt-20 h-full overflow-hidden md:ml-10">
-      <div className="flex flex-col items-start gap-10 w-[375px] max-w-[420px] xs:w-[500px] xs:max-w-[700px] md:w-[50%] md:max-w-[400px] lg:max-w-[480px] xl:max-w-[620px] px-4 xs:px-6 ">
+      <div className="flex flex-col items-start gap-10 w-[375px] max-w-[420px] xs:w-[500px] xs:max-w-[700px] md:w-[50%] md:max-w-[400px] lg:max-w-[480px] xl:max-w-[720px] px-4 xs:px-6 ">
         <h1 className="font-latin text-left text-[35px] lg:text-[42px] xs:tracking-tight font-medium leading-12 xs:leading-10 lg:leading-13">
           Buy Bitcoin and <br className="xs:hidden md:flex xl:hidden" />
           Perfect <br className="hidden xl:flex"/>Money in <br className="xs:hidden md:flex xl:hidden" />
@@ -23,9 +23,9 @@ const Hero = () => {
         </NavLink>
       </div>
 
-      <div className="relative bg-blue-500 py-5 w-[500px]  h-[460px] xs:w-[640px] xs:h-[550px] md:w-[50%] lg:h-[700px] min-w-[375px] overflow-hidden">
-        <div className="flex items-center justify-center w-[600px] md:w-[600px] lg:w-[750px] h-full">
-          <img src={hero} alt="Hero section illustration" className="absolute md:relative w-full  left-10 lg:left-5 " />
+      <div className="relative bg-blue-500 py-5 w-full  h-[390px] xs:max-w-[600px] xs:h-[520px] md:w-[50%] lg:h-[700px]  overflow-hidden">
+        <div className="flex items-center justify-start h-full ">
+          <img src={hero} alt="Hero section illustration" className="absolute md:relative min-w-[580px] max-w-[580px] md:min-w-[600px] lg:min-w-[750px]   w-full  left-5 " />
         </div>
       </div>
     </section>
