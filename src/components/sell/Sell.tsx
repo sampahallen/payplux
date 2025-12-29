@@ -10,22 +10,21 @@ const Buy = () => {
         <div className="border-2 border-white rounded-full p-0.5">
           <IoIosHelp className="text-white text-[50px] " />
         </div>
-        <h1 className="text-white">Buy on Payplux</h1>
+        <h1 className="text-white">Sell on Payplux</h1>
         <p className="font-latin text-slate-500 text-center xs:text-[15px] xs:max-w-[580px] xl:text-[16px]">
-          To buy on PayPlux means simply exchange your GHS for a digital
-          currency of choice, i.e. Bitcoin, Perfect Money, Ethereum, Litecoin.
+          To sell on PayPlux means simply exchange your digital currency of choice for GHS, ie bitcoin, perfect money, ethereum, litecoin. You can also call it liquidating your digital currency for cash.
         </p>
       </div>
       <div className="flex flex-col md:flex-row-reverse md:items-center md:justify-center gap-20 md:gap-10 lg:gap-20">
         <div className="flex items-center justify-center">
           <div className="flex flex-col gap-10 items-start pt-25 xl:pt-45 px-5 ">
             <h1 className="font-latin tracking-tight font-medium text-[30px]">
-              What I can <span className="text-blue-500">Buy</span> on <br />
+              What I can <span className="text-blue-500">Sell</span> on <br />
               Payplux
             </h1>
             <p className="font-latin text-[17px] text-slate-500 max-w-[480px] md:max-w-[320px] lg:max-w-[400px]">
               PayPlux is a digital currency service provider that allows you to
-              buy digital currencies including both crypto and non crypto
+              sell digital currencies including both crypto and non crypto
               assets. We have in stock:
             </p>
             <div className="flex flex-col gap-3">

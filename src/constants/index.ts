@@ -195,5 +195,23 @@ const processes =[
     item: "Complete your order and wait for your account to be credited",
   },
 ];
+const sellProcesses =[
+  {
+    id: 1,
+    item: "Choose digital currency to sell",
+  },
+  {
+    id: 2,
+    item: "Choose the amount to sell",
+  },
+  {
+    id: 3,
+    item: "Choose how to receive your money",
+  },
+  {
+    id: 4,
+    item: "Send the digital currency and wait for your money. You receive your money when digital currency sent has been received.",
+  },
+];
 
-export { navLinks, navReg, features, steps, footerLinks, benefits, currencies, processes };
+export { navLinks, navReg, features, steps, footerLinks, benefits, currencies, processes, sellProcesses };

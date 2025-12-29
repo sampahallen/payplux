@@ -1,4 +1,4 @@
-import { processes } from "../../constants";
+import { sellProcesses } from "../../constants";
 import sc from "../../assets/buy@3x.png";
 import bg from "../../assets/Big-oval.svg";
 import Table from "../Table";
@@ -14,7 +14,7 @@ const Process = () => {
               <p className="font-latin text-slate-500 text-[18px] lg:text-[19px]">
                 Our process is very simple and easy to use.
               </p>
-              {processes.map((process) => (
+              {sellProcesses.map((process) => (
                 <div className="flex flex-row gap-4">
                   <div className="">
                     <p className="font-latin font-normal border-2 border-blue-100 w-7 height-7 items-center rounded-full text-center text-blue-500">
@@ -26,6 +26,7 @@ const Process = () => {
                   </p>
                 </div>
               ))}
+              <p className="text-[18px] text-slate-500 font-latin ">Visit our <span className="text-blue-500">how to articles</span> for more detailed steps for each currency</p>
             </div>
           </div>
         </div>
@@ -47,7 +48,7 @@ const Process = () => {
        </div>
        <div className="flex px-4 flex-col gap-6 pt-20 items-center bg-white">
           <h1 className="font-latin font-medium text-left text-[28px]">
-            Place your buy order right away!
+            Got some crypto to sell?
           </h1>
           <Table />
         </div>
