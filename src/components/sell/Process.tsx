@@ -1,5 +1,5 @@
 import { sellProcesses } from "../../constants";
-import sc from "../../assets/buy@3x.png";
+import sc from "../../assets/sell@3x.png";
 import bg from "../../assets/Big-oval.svg";
 import Table from "../Table";
 const Process = () => {
