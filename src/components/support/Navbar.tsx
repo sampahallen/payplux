@@ -9,8 +9,8 @@ const Navbar = () => {
   const toggleMenu = () => setIsToggle((prev) => !prev);
 
   return (
-    <div className="bg-[#061f3c] py-5 px-4 flex justify-center w-full">
-      <div className="flex items-center justify-between w-full max-w-[570px] lg:max-w-[900px] xl:max-w-[1100px]">
+    <div className="bg-[#061f3c] py-5 px-4 lg:py-8 flex justify-center w-full">
+      <div className="flex items-center justify-between w-full max-w-[530px] lg:max-w-[950px] xl:max-w-[1100px]">
         <div className="flex items-center gap-2">
           <img src={logo} alt="Payplux Logo" />
           <div className="border-l border-slate-500 h-10" />
@@ -22,11 +22,11 @@ const Navbar = () => {
           </NavLink>
         </div>
 
-        <div className="hidden lg:flex items-center gap-2">
-          <HiExternalLink className="text-white" />
+        <div className="hidden lg:flex cursor-pointer items-center gap-1">
+          <HiExternalLink className="text-white text-xl" />
           <a
             href="#"
-            className="font-latin cursor-pointer text-center text-white text-[15px]"
+            className="font-latin  text-center text-white text-[14px]"
           >
             Go to Payplux.com
           </a>
@@ -56,7 +56,7 @@ const Navbar = () => {
 
           {isToggle && (
             <motion.div
-              className="flex flex-row items-center justify-center min-w-full absolute top-[81px] bg-[#061f3c] py-8 px-4  md:px-10 left-0"
+              className="flex flex-row items-center justify-center min-w-full absolute top-[80px] bg-[#061f3c] py-8 px-4  md:px-10 left-0"
               initial={{ opacity: 0, y: -10 }}
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: -10 }}
