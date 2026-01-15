@@ -26,7 +26,7 @@ const Footer = () => {
           </a>
         </div>
         <div className="flex flex-row gap-20 lg:gap-10">
-          <NavLink to="" className="text-[14px] text-slate-500">
+          <NavLink to="/" className="text-[14px] text-slate-500">
             Home
           </NavLink>
           <NavLink to="" className="text-[14px] text-slate-500">
