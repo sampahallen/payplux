@@ -4,7 +4,11 @@ import HomePage from "./pages/HomePage";
 import { Routes, Route } from "react-router";
 import SellPage from "./pages/SellPage";
 import SupportPage from "./pages/SupportPage";
-import GettingStarted from "./pages/GettingStarted";
+import GettingStarted from "./pages/supports/GettingStarted";
+import SignUp from "./pages/articles/gettingStarted/SignUp";
+import Wallet from "./pages/supports/Wallet";
+import Accounts from "./pages/supports/Accounts";
+import DoubleFactor from "./pages/supports/DoubleFactor";
 
 const App = () => {
   return (
@@ -15,7 +19,14 @@ const App = () => {
         <Route path="/buy" element={<BuyPage />} />
         <Route path="/sell" element={<SellPage />} />
         <Route path="support" element={<SupportPage />} />
+
         <Route path="/support/getting-started" element={<GettingStarted />} />
+        <Route path="/support/wallets" element={<Wallet />} />
+        <Route path="/support/accounts" element={<Accounts />} />
+        <Route path="/support/2-fa" element={<DoubleFactor />} />
+
+        {/* Articles */}
+        <Route path="/support/signup" element={<SignUp />} />
         <Route path="*" element={<h1>Page not Found</h1>} />
       </Routes>
     </div>

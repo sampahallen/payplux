@@ -39,7 +39,7 @@ const cards = [
   },
   {
     title: "Account, Verification & Security",
-    link: "/support/verification-&-security",
+    link: "/support/accounts",
     articleNo: "4 articles",
     articleTitles: [
       {
@@ -78,15 +78,9 @@ const cards = [
     title: "Manual Payments",
     link: "/support/manual-payments",
     articleTitles: [
-      { link: "", 
-        text: "MTN Mobile Money",
-      },
-      { link: "", 
-        text: "AirtelTigo Money", 
-      },
-      { link: "", 
-        text: "Vodafone Cash",
-      },
+      { link: "", text: "MTN Mobile Money" },
+      { link: "", text: "AirtelTigo Money" },
+      { link: "", text: "Vodafone Cash" },
     ],
   },
   {
@@ -115,7 +109,7 @@ const cards = [
       },
       {
         link: "",
-        text: "How do I verify my email when using the mobile app?"
+        text: "How do I verify my email when using the mobile app?",
       },
     ],
   },
@@ -133,18 +127,75 @@ const cards = [
 ];
 
 const gettingStarted = [
-      {
-        link: "",
-        text: "Sign Up",
-      },
-      {
-        link: "",
-        text: "How to Buy Bitcoin",
-      },
-      {
-        link: "",
-        text: "How to Buy Perfect Money",
-      },
-]
+  {
+    link: "/support/signup",
+    text: "Sign Up",
+  },
+  {
+    link: "",
+    text: "How to Buy Bitcoin",
+  },
+  {
+    link: "",
+    text: "How to Buy Perfect Money",
+  },
+  {
+    link: "",
+    text: "How to Sell Bitcoin",
+  },
+  {
+    link: "",
+    text: "How to Sell Perfect Money",
+  },
+];
 
-export { cards, gettingStarted };
+const wallets = [
+  {
+    link: "",
+    text: "How to Top Up Prepaid Wallet",
+  },
+  {
+    link: "",
+    text: "How to Withdraw From Cash-Out Wallet",
+  },
+  {
+    link: "",
+    text: "How to transfer from Cash-Out to Prepaid Wallet",
+  },
+];
+
+const accounts = [
+  {
+    link: "",
+    text: "How to cerify your ID",
+  },
+  {
+    link: "",
+    text: "How to Verify Phone Number",
+  },
+  {
+    link: "",
+    text: "How to Verify Mobile Money Numbers",
+  },
+  {
+    link: "",
+    text: "How to Change Accounts Password",
+  },
+];
+
+const doubleFactor = [
+  {
+    link: "",
+    text: "What is it?",
+  },
+  {
+    link: "",
+    text: "Why should I enable it?",
+  },
+  {
+    link: "",
+    text: "How to Activate it?",
+  },
+];
+
+export { cards, gettingStarted, wallets, accounts, doubleFactor };
