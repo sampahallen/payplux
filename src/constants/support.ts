@@ -1,6 +1,7 @@
 const cards = [
   {
     title: "Getting Started",
+    link: "/support/getting-started",
     articleNo: "5 articles",
     articleTitles: [
       {
@@ -19,6 +20,7 @@ const cards = [
   },
   {
     title: "Wallets",
+    link: "/support/wallets",
     articleNo: "3 articles",
     articleTitles: [
       {
@@ -37,6 +39,7 @@ const cards = [
   },
   {
     title: "Account, Verification & Security",
+    link: "/support/verification-&-security",
     articleNo: "4 articles",
     articleTitles: [
       {
@@ -55,7 +58,7 @@ const cards = [
   },
   {
     title: "2-Factor Authentication",
-    articleNo: "3 articles",
+    link: "/support/2-fa",
     articleTitles: [
       {
         link: "",
@@ -73,7 +76,7 @@ const cards = [
   },
   {
     title: "Manual Payments",
-    articleNo: "3 articles",
+    link: "/support/manual-payments",
     articleTitles: [
       { link: "", 
         text: "MTN Mobile Money",
@@ -88,6 +91,7 @@ const cards = [
   },
   {
     title: "Automated Payments",
+    link: "/support/automated-payments",
     articleNo: "1 article",
     articleTitles: [
       {
@@ -98,6 +102,7 @@ const cards = [
   },
   {
     title: "Mobile App",
+    link: "/support/mobile-app",
     articleNo: "8 articles",
     articleTitles: [
       {
@@ -116,6 +121,7 @@ const cards = [
   },
   {
     title: "Updates",
+    link: "/support/updates",
     articleNo: "1 article",
     articleTitles: [
       {
@@ -126,4 +132,19 @@ const cards = [
   },
 ];
 
-export { cards };
+const gettingStarted = [
+      {
+        link: "",
+        text: "Sign Up",
+      },
+      {
+        link: "",
+        text: "How to Buy Bitcoin",
+      },
+      {
+        link: "",
+        text: "How to Buy Perfect Money",
+      },
+]
+
+export { cards, gettingStarted };

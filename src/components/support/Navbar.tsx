@@ -24,12 +24,12 @@ const Navbar = () => {
 
         <div className="hidden lg:flex cursor-pointer items-center gap-1">
           <HiExternalLink className="text-white text-xl" />
-          <a
-            href="#"
+          <NavLink
+            to="/"
             className="font-latin  text-center text-white text-[14px]"
           >
             Go to Payplux.com
-          </a>
+          </NavLink>
         </div>
 
         <nav className="lg:hidden">

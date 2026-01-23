@@ -2,6 +2,7 @@ import { cards } from "../../constants/support";
 import fb from "../../assets/facebook.png";
 import tw from "../../assets/twitter.png";
 import ig from "../../assets/instagram.png";
+import { NavLink } from "react-router";
 
 const Cards = () => {
   return (
@@ -15,9 +16,9 @@ const Cards = () => {
               className="bg-white flex flex-col gap-3 pt-5 px-4 h-65 w-full max-w-[500px] rounded-lg self-start shadow-[0px_3px_9px_2px_rgba(0,0,0,0.1)]"
             >
               <div className="flex flex-col gap">
-                <p className="font-latin font-medium text-[18px] text-[#1c8aff]">
+                <NavLink to={card.link} className="font-latin font-medium text-[18px] text-[#1c8aff]">
                   {card.title}
-                </p>
+                </NavLink>
                 <p className="font-latin text-[13px] text-slate-400 leading-2">
                   {card.articleNo}
                 </p>
