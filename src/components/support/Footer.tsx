@@ -13,7 +13,7 @@ const Footer = () => {
           ©2019 PayPlux. All Rights Reserved.
         </p>
       </div>
-      <div className="lg:flex lg:flex-col items-end gap-3">
+      <div className="flex flex-col items-center lg:flex-col lg:items-end gap-3">
         <div className="flex flex-row gap-8">
           <a href="">
             <img src={fb} alt="" className="w-[20px] lg:w-[25px]" />
@@ -33,7 +33,7 @@ const Footer = () => {
             Privacy Policy
           </NavLink>
         </div>
-        <p className=" lg:hidden">©2019 PayPlux. All Rights Reserved.</p>
+        <p className="text-[14px] text-slate-500 lg:text-[13px] lg:hidden">©2019 PayPlux. All Rights Reserved.</p>
       </div>
     </div>
   );

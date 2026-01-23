@@ -198,4 +198,54 @@ const doubleFactor = [
   },
 ];
 
-export { cards, gettingStarted, wallets, accounts, doubleFactor };
+const manualPayments = [
+  { link: "", text: "MTN Mobile Money" },
+  { link: "", text: "AirtelTigo Money" },
+  { link: "", text: "AirtelTigo Money (New Procedure starting 16/03/2020)" },
+  { link: "", text: "Vodafone Cash" },
+];
+
+const mobile = [
+  {
+    link: "",
+    text: "How do I verify my phone number when using the mobile app?",
+  },
+  {
+    link: "",
+    text: "How do I add a new mobile money number for transactions?",
+  },
+  {
+    link: "",
+    text: "How do I verify my email when using the mobile app?",
+  },
+  {
+    link: "",
+    text: "How do I change my password?",
+  },
+  {
+    link: "",
+    text: "How do I enable second-factor-authentication?",
+  },
+  {
+    link: "",
+    text: "How do I view my transaction history?",
+  },
+  {
+    link: "",
+    text: "How do I view my buy and sell orders?",
+  },
+  {
+    link: "",
+    text: "Why does the PayPlux mobile app request special permissions?",
+  },
+];
+
+export {
+  cards,
+  gettingStarted,
+  wallets,
+  accounts,
+  doubleFactor,
+  manualPayments,
+  mobile,
+};

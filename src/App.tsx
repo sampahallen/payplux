@@ -9,6 +9,8 @@ import SignUp from "./pages/articles/gettingStarted/SignUp";
 import Wallet from "./pages/supports/Wallet";
 import Accounts from "./pages/supports/Accounts";
 import DoubleFactor from "./pages/supports/DoubleFactor";
+import ManualPayments from "./pages/supports/ManualPayments";
+import MobileApp from "./pages/supports/MobileApp";
 
 const App = () => {
   return (
@@ -24,6 +26,8 @@ const App = () => {
         <Route path="/support/wallets" element={<Wallet />} />
         <Route path="/support/accounts" element={<Accounts />} />
         <Route path="/support/2-fa" element={<DoubleFactor />} />
+        <Route path="/support/manual-payments" element={<ManualPayments />} />
+        <Route path="/support/mobile-app" element={<MobileApp />} />
 
         {/* Articles */}
         <Route path="/support/signup" element={<SignUp />} />
