@@ -49,7 +49,7 @@ const SignUp = () => {
           </div>
 
         
-          <div className="flex flex-col gap-4 bg-[#F2F3F5] font-latin rounded-lg w-full max-w-[530px] lg:w-[400px] xl:w-[500px] py-5 px-7">
+          <div className="flex flex-col gap-4 bg-[#F2F3F5] font-latin rounded-lg h-full w-full max-w-[530px] lg:w-[400px] xl:w-[500px] py-5 px-7">
             <h2 className="font-medium text-[#061F3C] text-[20px]">
               Getting Started Articles
             </h2>
@@ -58,7 +58,7 @@ const SignUp = () => {
                 <div className="flex flex-col gap-4">
                   <NavLink
                     to={article.link}
-                    className="text-[15px] text-slate-500"
+                    className="text-[15px] text-slate-500 hover:underline"
                   >
                     {article.text}
                   </NavLink>

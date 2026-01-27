@@ -27,12 +27,12 @@ const Cards = () => {
               <div>
                 {card.articleTitles.map((title) => (
                   <div key={title.text} className="flex flex-col">
-                    <a
-                      href={title.link}
+                    <NavLink
+                      to={title.link}
                       className="hover:underline mt-5 font-latin text-[14.3px] text-[#061f3c]"
                     >
                       {title.text}
-                    </a>
+                    </NavLink>
                   </div>
                 ))}
               </div>

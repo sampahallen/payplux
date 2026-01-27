@@ -11,6 +11,7 @@ import Accounts from "./pages/supports/Accounts";
 import DoubleFactor from "./pages/supports/DoubleFactor";
 import ManualPayments from "./pages/supports/ManualPayments";
 import MobileApp from "./pages/supports/MobileApp";
+import BuyBitcoin from "./pages/articles/gettingStarted/BuyBitcoin";
 
 const App = () => {
   return (
@@ -31,6 +32,7 @@ const App = () => {
 
         {/* Articles */}
         <Route path="/support/signup" element={<SignUp />} />
+        <Route path="/support/buy-bitcoin" element={<BuyBitcoin />} />
         <Route path="*" element={<h1>Page not Found</h1>} />
       </Routes>
     </div>

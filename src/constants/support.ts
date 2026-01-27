@@ -9,7 +9,7 @@ const cards = [
         text: "Sign Up",
       },
       {
-        link: "",
+        link: "/support/buy-bitcoin",
         text: "How to Buy Bitcoin",
       },
       {
@@ -132,7 +132,7 @@ const gettingStarted = [
     text: "Sign Up",
   },
   {
-    link: "",
+    link: "/support/buy-bitcoin",
     text: "How to Buy Bitcoin",
   },
   {
