@@ -1,28 +1,28 @@
 import Navbar from "../../../components/support/Navbar";
 import Nav2 from "../../../components/support/inner/Nav2";
 import { HiExternalLink } from "react-icons/hi";
-import { buyBtc } from "../../../constants/articles";
+import { sellPfctMny } from "../../../constants/articles";
 import { gettingStarted } from "../../../constants/support";
 import { NavLink } from "react-router";
 import Footer from "../../../components/support/Footer";
 
-const BuyBitcoin = () => {
+const SellPfctMny = () => {
   return (
     <div>
       <Navbar />
       <Nav2
         title="Get Started"
-        subtitle="How to Buy Bitcoin"
+        subtitle="How to Sell Perfect Money"
         link1="/support/getting-started"
-        link2="/support/buy-bitcoin"
+        link2="/support/sell-perfect-money"
       />
       <div className=" flex  items-center justify-center  ">
         <div className="pt-15 pb-20 px-5 lg:px-10 flex flex-col lg:flex-row w-full max-w-[530px] lg:max-w-[1000px] xl:max-w-[1200px] gap-25 lg:gap-10 xl:gap-20">
           <div className="font-latin px-5 flex flex-col gap-8 w-full max-w-[530px] xl:w-full">
-            <h1 className="text-[#061F3C] font-medium text-[32px]">How to Buy Bitcoin</h1>
+            <h1 className="text-[#061F3C] font-medium text-[32px]">How to Sell Perfect Money</h1>
             <div className="flex flex-col">
               <div className="flex flex-col gap-5">
-                {buyBtc.map((step) => (
+                {sellPfctMny.map((step) => (
                   <div className="flex flex-row gap-7">
                     <p className="text-[17px] font-semibold text-[#061F3C]">
                       {step.id}
@@ -72,4 +72,4 @@ const BuyBitcoin = () => {
   );
 };
 
-export default BuyBitcoin;
+export default SellPfctMny;

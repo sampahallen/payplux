@@ -12,6 +12,9 @@ import DoubleFactor from "./pages/supports/DoubleFactor";
 import ManualPayments from "./pages/supports/ManualPayments";
 import MobileApp from "./pages/supports/MobileApp";
 import BuyBitcoin from "./pages/articles/gettingStarted/BuyBitcoin";
+import BuyPfctMny from "./pages/articles/gettingStarted/BuyPfctMny";
+import SellBitcoin from "./pages/articles/gettingStarted/SellBitcoin";
+import SellPfctMny from "./pages/articles/gettingStarted/SellPfctMny";
 
 const App = () => {
   return (
@@ -30,9 +33,15 @@ const App = () => {
         <Route path="/support/manual-payments" element={<ManualPayments />} />
         <Route path="/support/mobile-app" element={<MobileApp />} />
 
-        {/* Articles */}
+        {/* ARTICLES */}
+
+        {/* Getting Started */}
         <Route path="/support/signup" element={<SignUp />} />
         <Route path="/support/buy-bitcoin" element={<BuyBitcoin />} />
+        <Route path="/support/buy-perfect-money" element={<BuyPfctMny />} />
+        <Route path="/support/sell-bitcoin" element={<SellBitcoin />} />
+        <Route path="/support/sell-perfect-money" element={<SellPfctMny />} />
+
         <Route path="*" element={<h1>Page not Found</h1>} />
       </Routes>
     </div>

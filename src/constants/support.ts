@@ -13,7 +13,7 @@ const cards = [
         text: "How to Buy Bitcoin",
       },
       {
-        link: "",
+        link: "/support/buy-perfect-money",
         text: "How to Buy Perfect Money",
       },
     ],
@@ -136,15 +136,15 @@ const gettingStarted = [
     text: "How to Buy Bitcoin",
   },
   {
-    link: "",
+    link: "/support/buy-perfect-money",
     text: "How to Buy Perfect Money",
   },
   {
-    link: "",
+    link: "/support/sell-bitcoin",
     text: "How to Sell Bitcoin",
   },
   {
-    link: "",
+    link: "/support/sell-perfect-money",
     text: "How to Sell Perfect Money",
   },
 ];
