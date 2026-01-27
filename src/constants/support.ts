@@ -5,7 +5,7 @@ const cards = [
     articleNo: "5 articles",
     articleTitles: [
       {
-        link: "",
+        link: "/support/signup",
         text: "Sign Up",
       },
       {

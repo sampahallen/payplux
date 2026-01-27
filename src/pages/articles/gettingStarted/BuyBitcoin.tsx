@@ -1,0 +1,9 @@
+import React from 'react'
+
+const BuyBitcoin = () => {
+  return (
+    <div>BuyBitcoin</div>
+  )
+}
+
+export default BuyBitcoin

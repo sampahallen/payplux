@@ -1,5 +1,13 @@
 const signUp = [
     {
+        id: 1,
+        text: "Visit",
+        link: {
+            label: "app.payplux.com",
+            url: "/",
+        },
+    },
+    {
         id: 2,
         text: "Enter details required to sign up",
     },
