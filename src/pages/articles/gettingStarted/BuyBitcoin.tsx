@@ -17,7 +17,7 @@ const BuyBitcoin = () => {
         link2="/support/buy-bitcoin"
       />
       <div className=" flex  items-center justify-center  ">
-        <div className="pt-15 pb-20 px-5 lg:px-10 flex flex-col lg:flex-row w-full max-w-[530px] lg:max-w-[1000px] xl:max-w-[1200px] gap-25 lg:gap-10 xl:gap-20">
+        <div className="pt-15 pb-20 px-3 lg:px-10 flex flex-col lg:flex-row w-full max-w-[530px] lg:max-w-[1000px] xl:max-w-[1200px] gap-25 lg:gap-10 xl:gap-20">
           <div className="font-latin px-5 flex flex-col gap-8 w-full max-w-[530px] xl:w-full">
             <h1 className="text-[#061F3C] font-medium text-[32px]">How to Buy Bitcoin</h1>
             <div className="flex flex-col">
