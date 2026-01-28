@@ -43,15 +43,15 @@ const cards = [
     articleNo: "4 articles",
     articleTitles: [
       {
-        link: "",
-        text: "How to cerify your ID",
+        link: "/support/verify-id",
+        text: "How to verify your ID",
       },
       {
-        link: "",
+        link: "/support/verify-phone-number",
         text: "How to Verify Phone Number",
       },
       {
-        link: "",
+        link: "/support/verify-momo",
         text: "How to Verify Mobile Money Numbers",
       },
     ],
@@ -166,19 +166,19 @@ const wallets = [
 
 const accounts = [
   {
-    link: "",
-    text: "How to cerify your ID",
+    link: "/support/verify-id",
+    text: "How to verify your ID",
   },
   {
-    link: "",
+    link: "/support/verify-phone-number",
     text: "How to Verify Phone Number",
   },
   {
-    link: "",
+    link: "/support/verify-momo",
     text: "How to Verify Mobile Money Numbers",
   },
   {
-    link: "",
+    link: "/support/change-password",
     text: "How to Change Accounts Password",
   },
 ];

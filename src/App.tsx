@@ -18,6 +18,10 @@ import SellPfctMny from "./pages/articles/gettingStarted/SellPfctMny";
 import TopUp from "./pages/articles/wallets/TopUp";
 import Withdraw from "./pages/articles/wallets/Withdraw";
 import Transfer from "./pages/articles/wallets/Transfer";
+import Id from "./pages/articles/verification/Id";
+import PhoneNumber from "./pages/articles/verification/PhoneNumber";
+import MobileMoney from "./pages/articles/verification/MobileMoney";
+import ChangePasswords from "./pages/articles/verification/ChangePassword";
 
 const App = () => {
   return (
@@ -49,6 +53,12 @@ const App = () => {
         <Route path="/support/top-up" element={<TopUp />} />
         <Route path="/support/withdraw" element={<Withdraw />} />
         <Route path="/support/transfer" element={<Transfer />} />
+
+        {/* Verification */}
+        <Route path="/support/verify-id" element={<Id />} />
+        <Route path="/support/verify-phone-number" element={<PhoneNumber />} />
+        <Route path="/support/verify-momo" element={<MobileMoney />} />
+        <Route path="/support/change-password" element={<ChangePasswords />} />
 
         <Route path="*" element={<h1>Page not Found</h1>} />
       </Routes>

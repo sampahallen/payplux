@@ -292,6 +292,161 @@ const transfer = [
   },
 ];
 
+const verifyId = {
+  steps: [
+    {
+      id: 1,
+      text: " Take a clear picture of a valid ID (These are the ONLY accepted IDs - Ghana Card, Passport and Driver's License)",
+    },
+    {
+      id: 2,
+      text: " Get a sheet of paper and write the following details on it",
+      substeps: [
+        {
+          id: 1,
+          text: "PayPlux",
+        },
+        {
+          id: 2,
+          text: " Date (the date on which you are submitting these requirements)",
+        },
+        {
+          id: 3,
+          text: "Sign - your official signature",
+        },
+      ],
+    },
+    {
+      id: 3,
+      text: " Hold the sheet of paper together with your ID Card and let someone take a photo of you. Be sure it’s clear as possible. Do not be bare chested. Ensure it’s a well-lit area.",
+    },
+    {
+      id: 4,
+      text: " After completing the steps above, kindly contact us on the livechat.",
+    },
+  ],
+
+  tips: [
+    {
+      text: "Read the instructions carefully and do accordingly.",
+    },
+    {
+      text: "Half sent requirements won’t be processed.",
+    },
+    {
+      text: "Do take note that verification can take up to 48 hours.",
+    },
+    {
+      text: "Click on this link to see how it is done. ",
+      link: {
+        label: "http://prnt.sc/tzes4h",
+        url: "http://prnt.sc/tzes4h",
+      },
+    },
+  ],
+};
+
+const phoneNumber = [
+  {
+    id: 1,
+    text: "Login to your account on",
+    link: {
+      label: "app.payplux.com",
+      url: "/",
+    },
+  },
+  {
+    id: 2,
+    text: "Navigate to Settings from the Menu",
+  },
+  {
+    id: 3,
+    text: "Navigate to My Profile and click on Verify Phone Number or Resend Verification SMS",
+  },
+  {
+    id: 4,
+    text: "Enter or Select the phone number you want to verify",
+  },
+  {
+    id: 5,
+    text: "Click Send Code to receive an SMS with the Verification Code",
+  },
+  {
+    id: 6,
+    text: "Enter the Verification Code and click Verify Phone Number",
+  },
+  {
+    id: 7,
+    text: "Your phone number is verified now",
+  },
+];
+
+const momo = [
+  {
+    id: 1,
+    text: "Login to your account on",
+    link: {
+      label: "app.payplux.com",
+      url: "/",
+    },
+  },
+  {
+    id: 2,
+    text: "Navigate to Settings from the Menu",
+  },
+  {
+    id: 3,
+    text: "Navigate to Mobile Money Numbers, and click on Verify Mobile Money Number",
+  },
+  {
+    id: 4,
+    text: "Enter or Select the mobile money number to verify",
+  },
+  {
+    id: 5,
+    text: "Click Send Code to receive the SMS with the Verification Code",
+  },
+  {
+    id: 6,
+    text: "Enter the Verification Code and click Verify Phone Number",
+  },
+  {
+    id: 7,
+    text: "Your phone number is verified now",
+  },
+];
+
+const password = [
+  {
+    id: 1,
+    text: "Login to your account on",
+    link: {
+      label: "app.payplux.com",
+      url: "/",
+    },
+  },
+  {
+    id: 2,
+    text: "Navigate to Settings from the Menu",
+  },
+  {
+    id: 3,
+    text: "Navigate to Security, then Change Password section",
+  },
+  {
+    id: 4,
+    text: "Enter your Old and New Passwords and Confirm Passwords",
+  },
+  {
+    id: 5,
+    text: "Click Change Password",
+  },
+  {
+    id: 6,
+    text: "Your password has been successfully changed",
+  },
+];
+
 export {
   signUp,
   buyBtc,
@@ -301,4 +456,8 @@ export {
   topUp,
   withdraw,
   transfer,
+  verifyId,
+  phoneNumber,
+  momo,
+  password,
 };
