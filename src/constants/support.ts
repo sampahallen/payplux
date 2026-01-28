@@ -24,15 +24,15 @@ const cards = [
     articleNo: "3 articles",
     articleTitles: [
       {
-        link: "",
+        link: "/support/top-up",
         text: "How to Top Up Prepaid Wallet",
       },
       {
-        link: "",
+        link: "/support/withdraw",
         text: "How to Withdraw From Cash-Out Wallet",
       },
       {
-        link: "",
+        link: "/support/transfer",
         text: "How to transfer from Cash-Out to Prepaid Wallet",
       },
     ],
@@ -151,15 +151,15 @@ const gettingStarted = [
 
 const wallets = [
   {
-    link: "",
+    link: "/support/top-up",
     text: "How to Top Up Prepaid Wallet",
   },
   {
-    link: "",
+    link: "/support/withdraw",
     text: "How to Withdraw From Cash-Out Wallet",
   },
   {
-    link: "",
+    link: "/support/transfer",
     text: "How to transfer from Cash-Out to Prepaid Wallet",
   },
 ];

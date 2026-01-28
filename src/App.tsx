@@ -15,6 +15,9 @@ import BuyBitcoin from "./pages/articles/gettingStarted/BuyBitcoin";
 import BuyPfctMny from "./pages/articles/gettingStarted/BuyPfctMny";
 import SellBitcoin from "./pages/articles/gettingStarted/SellBitcoin";
 import SellPfctMny from "./pages/articles/gettingStarted/SellPfctMny";
+import TopUp from "./pages/articles/wallets/TopUp";
+import Withdraw from "./pages/articles/wallets/Withdraw";
+import Transfer from "./pages/articles/wallets/Transfer";
 
 const App = () => {
   return (
@@ -41,6 +44,11 @@ const App = () => {
         <Route path="/support/buy-perfect-money" element={<BuyPfctMny />} />
         <Route path="/support/sell-bitcoin" element={<SellBitcoin />} />
         <Route path="/support/sell-perfect-money" element={<SellPfctMny />} />
+
+        {/* Wallets */}
+        <Route path="/support/top-up" element={<TopUp />} />
+        <Route path="/support/withdraw" element={<Withdraw />} />
+        <Route path="/support/transfer" element={<Transfer />} />
 
         <Route path="*" element={<h1>Page not Found</h1>} />
       </Routes>
