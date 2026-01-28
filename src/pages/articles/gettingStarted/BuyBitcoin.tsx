@@ -27,14 +27,14 @@ const BuyBitcoin = () => {
                     <p className="text-[17px] font-semibold text-[#061F3C]">
                       {step.id}
                     </p>
-                    <p className="flex flex-row gap-1.5 items-center text-[#061F3C] font-normal text-[15px] tracking-tight">
+                    <p className="text-[#061F3C] font-normal text-[15px] tracking-tight">
                       {step.text}
 
                       {step.link && (
                         <>
                           <a
                             href={step.link.url}
-                            className="flex flex-row text-blue-500 hover:underline"
+                            className="inline-flex items-center ml-1.5 text-blue-500 hover:underline"
                           >
                             {step.link.label}
                             <HiExternalLink />
