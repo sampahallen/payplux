@@ -78,9 +78,9 @@ const cards = [
     title: "Manual Payments",
     link: "/support/manual-payments",
     articleTitles: [
-      { link: "", text: "MTN Mobile Money" },
-      { link: "", text: "AirtelTigo Money" },
-      { link: "", text: "Vodafone Cash" },
+      { link: "/support/manual-payments/page", text: "MTN Mobile Money" },
+      { link: "/support/manual-payments/page", text: "AirtelTigo Money" },
+      { link: "/support/manual-payments/page", text: "Vodafone Cash" },
     ],
   },
   {
@@ -89,7 +89,7 @@ const cards = [
     articleNo: "1 article",
     articleTitles: [
       {
-        link: "",
+        link: "/support/automated-payments",
         text: "Automated Mobile Money",
       },
     ],
@@ -100,15 +100,15 @@ const cards = [
     articleNo: "8 articles",
     articleTitles: [
       {
-        link: "",
+        link: "/support/mobile-app/page",
         text: "How do I verify my phone number when using the mobile app?",
       },
       {
-        link: "",
+        link: "/support/mobile-app/page",
         text: "How do I add a new mobile money number for transactions?",
       },
       {
-        link: "",
+        link: "/support/mobile-app/page",
         text: "How do I verify my email when using the mobile app?",
       },
     ],
@@ -201,44 +201,54 @@ const doubleFactor = [
   },
 ];
 
-const manualPayments = [
-  { link: "", text: "MTN Mobile Money" },
-  { link: "", text: "AirtelTigo Money" },
-  { link: "", text: "AirtelTigo Money (New Procedure starting 16/03/2020)" },
-  { link: "", text: "Vodafone Cash" },
+const manualPayment = [
+  { link: "/support/manual-payments/page", text: "MTN Mobile Money" },
+  { link: "/support/manual-payments/page", text: "AirtelTigo Money" },
+  {
+    link: "/support/manual-payments/page",
+    text: "AirtelTigo Money (New Procedure starting 16/03/2020)",
+  },
+  { link: "/support/manual-payments/page", text: "Vodafone Cash" },
+];
+
+const automatedPayment = [
+  {
+    link: "/support/automated-payments",
+    text: "Automated Mobile Money",
+  },
 ];
 
 const mobile = [
   {
-    link: "",
+    link: "/support/mobile-app/page",
     text: "How do I verify my phone number when using the mobile app?",
   },
   {
-    link: "",
+    link: "/support/mobile-app/page",
     text: "How do I add a new mobile money number for transactions?",
   },
   {
-    link: "",
+    link: "/support/mobile-app/page",
     text: "How do I verify my email when using the mobile app?",
   },
   {
-    link: "",
+    link: "/support/mobile-app/page",
     text: "How do I change my password?",
   },
   {
-    link: "",
+    link: "/support/mobile-app/page",
     text: "How do I enable second-factor-authentication?",
   },
   {
-    link: "",
+    link: "/support/mobile-app/page",
     text: "How do I view my transaction history?",
   },
   {
-    link: "",
+    link: "/support/mobile-app/page",
     text: "How do I view my buy and sell orders?",
   },
   {
-    link: "",
+    link: "/support/mobile-app/page",
     text: "Why does the PayPlux mobile app request special permissions?",
   },
 ];
@@ -249,6 +259,7 @@ export {
   wallets,
   accounts,
   doubleFactor,
-  manualPayments,
+  manualPayment,
+  automatedPayment,
   mobile,
 };

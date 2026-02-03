@@ -1,7 +1,7 @@
 import Navbar from "../../components/support/Navbar";
 import Nav from "../../components/support/inner/Nav";
 import Footer from "../../components/support/Footer";
-import { manualPayments } from "../../constants/support";
+import { manualPayment } from "../../constants/support";
 import { NavLink } from "react-router";
 import { FaChevronRight } from "react-icons/fa6";
 
@@ -17,7 +17,7 @@ const ManualPayments = () => {
           </p>
           <div className="flex justify-center">
             <div className="flex flex-col bg-[#FAFBFC] rounded-lg w-full lg:max-w-[680px] shadow-[0px_12px_6px_2px_rgba(0,0,0,0.1)]">
-              {manualPayments.map((card, idx) => (
+              {manualPayment.map((card, idx) => (
                 <div className="">
                   <div className="flex flex-row items-center justify-between py-10 px-3 lg:px-5">
                     <NavLink to={card.link} className="text-[#061f3c]">
@@ -25,7 +25,7 @@ const ManualPayments = () => {
                     </NavLink>
                     <FaChevronRight className="text-slate-300" />
                   </div>
-                  {idx !== manualPayments.length - 1 && (
+                  {idx !== manualPayment.length - 1 && (
                     <div className={`border-b border-slate-300`}> </div>
                   )}
                 </div>

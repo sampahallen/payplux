@@ -23,6 +23,9 @@ import PhoneNumber from "./pages/articles/verification/PhoneNumber";
 import MobileMoney from "./pages/articles/verification/MobileMoney";
 import ChangePasswords from "./pages/articles/verification/ChangePassword";
 import DoubleFA from "./pages/articles/DoubleFA";
+import ManualPayment from "./pages/articles/ManualPayment";
+import AutomatedPayments from "./pages/articles/AutomatedPayments";
+import MobileAppPage from "./pages/articles/MobileAppPage";
 
 const App = () => {
   return (
@@ -63,6 +66,15 @@ const App = () => {
 
         {/* 2FA */}
         <Route path="/support/2-factor-auth" element={<DoubleFA />} />
+
+        {/*Manual Payments  */}
+        <Route path="/support/manual-payments/page" element={<ManualPayment />} />
+
+        {/* Automated Payments */}
+        <Route path="/support/automated-payments" element={<AutomatedPayments />} />
+
+        {/* Mobile App */}
+        <Route path="/support/mobile-app/page" element={<MobileAppPage />} />
 
         <Route path="*" element={<h1>Page not Found</h1>} />
       </Routes>

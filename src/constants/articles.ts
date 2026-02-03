@@ -587,6 +587,432 @@ const doubleFA = [
   },
 ];
 
+const manualPayments = [
+  {
+    title: {
+      key: "",
+      label: "MTN Mobile Money",
+    },
+    steps: [
+      {
+        id: 1,
+        text: "Dial *170# on your MTN mobile money phone",
+      },
+      {
+        id: 2,
+        text: "Enter 1 to select Transfer Money and press Send",
+      },
+      {
+        id: 3,
+        text: "Enter 1 to select Mobile User and press Send",
+      },
+      {
+        id: 4,
+        text: "Enter 2 to select Merchant and press Send",
+      },
+      {
+        id: 5,
+        text: "Enter our Merchant mobile money number shown in your account and press send and repeat",
+      },
+      {
+        id: 6,
+        text: "Enter the Amount and press Send",
+      },
+      {
+        id: 7,
+        text: "Enter your Secret PIN after you have cross checked and press Send",
+      },
+      {
+        id: 8,
+        text: "Get the MTN Transaction ID from the SMS message you receive from MTN.",
+      },
+      {
+        id: 9,
+        text: "If you don’t receive the SMS message after 30 minutes, call MTN customer service to retrieve the Transaction ID",
+      },
+      {
+        id: 10,
+        text: "Login to your account on ",
+        link: {
+          label: "app.payplux.com",
+          url: "/"
+        }
+      },
+      {
+        id: 11,
+        text: "Visit the order you created and add the payment details",
+      },
+    ],
+  },
+  {
+    title: {
+      key: "",
+      label: "AirtelTigo Money",
+    },
+    steps: [
+      {
+        id: 1,
+        text: "Dial *110# on your AirtelTigo Money phone",
+      },
+      {
+        id: 2,
+        text: "Enter 5 to select Withdraw Cash and press Send",
+      },
+      {
+        id: 3,
+        text: "Enter 1 to select from Agent and press Send",
+      },
+      {
+        id: 4,
+        text: "Enter our Agent Code shown in your account and press Send",
+      },
+      {
+        id: 5,
+        text: "Enter the Amount and press Send",
+      },
+      {
+        id: 6,
+        text: "Enter your Secret PIN after you have cross checked and press Send",
+      },
+      {
+        id: 7,
+        text: "Get the AirtelTigo Cash Transaction ID from the SMS message you receive from AirtelTigo",
+      },
+      {
+        id: 8,
+        text: "If you don’t receive the SMS message after 30 minutes, call AirtelTigo Cash customer service to retrieve the Transaction ID",
+      },
+      {
+        id: 9,
+        text: "Login to your account on ",
+        link: {
+          label: "app.payplux.com",
+          url: "/"
+        }
+      },
+      {
+        id: 10,
+        text: "Visit the order you created and add the payment details",
+      },
+    ],
+  },
+  {
+    title: {
+      key: "",
+      label: "AirtelTigo Money (New Procedure starting 16/03/2020)",
+    },
+    steps: [
+      {
+        id: 1,
+        text: "Dial *110# on your AirtelTigo Money phone",
+      },
+      {
+        id: 2,
+        text: "Select option 4 “Pay Bills” and press send",
+      },
+      {
+        id: 3,
+        text: "Select option 1 “Pay to Number/Nickname” and press send",
+      },
+      {
+        id: 4,
+        text: "Enter Nickname “PAYPLUX” [case sensitive]. Please note nickname is case sensitive",
+      },
+      {
+        id: 5,
+        text: "Enter Amount and press send",
+      },
+      {
+        id: 6,
+        text: "Enter reference for transaction",
+      },
+      {
+        id: 7,
+        text: "Confirm payment with 4 digit PIN",
+      },
+    ],
+  },
+  {
+    title: {
+      key: "",
+      label: "Vodafone Money",
+    },
+    steps: [
+      {
+        id: 1,
+        text: "Dial *110# on your Vodafone cash phone",
+      },
+      {
+        id: 2,
+        text: "Enter 2 to select Withdraw Cash and press Send",
+      },
+      {
+        id: 3,
+        text: "Enter 1 to select From Agent Cash and press Send",
+      },
+      {
+        id: 4,
+        text: "Enter our Till Number shown in your account and press Send",
+      },
+      {
+        id: 5,
+        text: "Enter the Amount and press Send",
+      },
+      {
+        id: 6,
+        text: "Enter 1 to Confirm and press Send",
+      },
+      {
+        id: 7,
+        text: "Enter your Secret PIN and press Send",
+      },
+      {
+        id: 8,
+        text: "Get the Vodafone Cash Transaction ID from the SMS message you receive from Vodafone.",
+      },
+      {
+        id: 9,
+        text: "If you don’t receive the SMS message after 30 minutes, call Vodafone Cash customer service to retrieve the Transaction ID",
+      },
+      {
+        id: 10,
+        text: "Login to your account on ",
+        link: {
+          label: "app.payplux.com",
+          url: "/"
+        }
+      },
+      {
+        id: 11,
+        text: "Visit the order you created and add the payment details",
+      },
+    ],
+  },
+];
+
+const automatedPayments = [
+    {
+    title: {
+      key: "",
+      label: "Automated Mobile Money",
+    },
+    steps: [
+      {
+        id: 1,
+        text: "Dial *170# on your MTN mobile money phone",
+      },
+      {
+        id: 2,
+        text: "Enter 1 to select Transfer Money and press Send",
+      },
+      {
+        id: 3,
+        text: "Enter 1 to select Mobile User and press Send",
+      },
+            {
+        id: 4,
+        text: "Login to your account on ",
+        link: {
+          label: "app.payplux.com",
+          url: "/"
+        }
+      },
+      {
+        id: 5,
+        text: "Navigate to “Wallets” from the menu",
+      },
+      {
+        id: 6,
+        text: "Click Add Funds and enter amount",
+      },
+      {
+        id: 7,
+        text: "Choose Automated Mobile Money Payment Method",
+      },
+      {
+        id: 8,
+        text: "Select Preferred Network and the Verified Number",
+      },
+      {
+        id: 9,
+        text: "Click Continue and wait for SMS prompt",
+      },
+      {
+        id: 10,
+        text: "Complete payments to complete order",
+      },
+    ],
+  },
+];
+
+const mobileApp = [
+  {
+    title: {
+      key: "",
+      label: "How do I verify my phone number when using the mobile app?",
+    },
+    steps: [
+      {
+        id: 1,
+        text: "Once logged in, locate the settings tab and click on ‘Settings’",
+      },
+      {
+        id: 2,
+        text: "Under the ‘My Profile’ menu, locate the default phone number section",
+      },
+      {
+        id: 3,
+        text: "Type in the preferred phone number to verify",
+      },
+      {
+        id: 4,
+        text: "Click ‘Resend verification SMS’",
+      },
+      {
+        id: 5,
+        text: "Enter the verification code received to complete the process.",
+      },
+    ],
+  },
+  {
+    title: {
+      key: "",
+      label: "How do I verify my email when using the mobile app?",
+    },
+    steps: [
+      {
+        id: 1,
+        text: "Once logged in, locate the settings tab and click on ‘Settings’",
+      },
+      {
+        id: 2,
+        text: "Under the ‘My Profile’ menu, navigate to the mail section",
+      },
+      {
+        id: 3,
+        text: "Type in the preferred email to verify",
+      },
+      {
+        id: 4,
+        text: "Click ‘Resend verification email’",
+      },
+      {
+        id: 5,
+        text: "Check your inbox for the verification email",
+      },
+    ],
+  },
+  {
+    title: {
+      key: "",
+      label: "How do I change my password?",
+    },
+    steps: [
+      {
+        id: 1,
+        text: "Once logged in, locate the ‘Settings’ tab and click on ‘Settings’",
+      },
+      {
+        id: 2,
+        text: "Click on the ’Security’ tab",
+      },
+      {
+        id: 3,
+        text: "Locate the Change password part",
+      },
+      {
+        id: 4,
+        text: "Fill in the necessary details and the new password as well",
+      },
+      {
+        id: 5,
+        text: "Click on the ‘Change Password’ button to successfully change your password",
+      },
+    ],
+  },
+  {
+    title: {
+      key: "",
+      label: "How do I enable second-factor authentication?",
+    },
+    steps: [
+      {
+        id: 1,
+        text: "Once logged in, locate the ‘Settings’ tab and click on ‘Settings’",
+      },
+      {
+        id: 2,
+        text: "Click on the ’Security’ tab",
+      },
+      {
+        id: 3,
+        text: "Navigate to “2-Factor Authentication“",
+      },
+      {
+        id: 4,
+        text: "Enable the second-factor authentication by opting for SMS or Google Authenticator",
+      },
+      {
+        id: 5,
+        text: "If the option of SMS is selected, a verification code will be sent to the designated phone number",
+      },
+      {
+        id: 6,
+        text: "If the option of Google Authenticator is selected, a popup menu will appear with a procedure to follow.",
+      },
+    ],
+  },
+  {
+    title: {
+      key: "",
+      label: "How do I view my transaction history?",
+    },
+    steps: [
+      {
+        id: 1,
+        text: "Once logged in, locate the ‘Wallets’ tab and click on ‘Wallets’",
+      },
+      {
+        id: 2,
+        text: "On the right side of the menu, you can view your income and expenditure with their corresponding timelines",
+      },
+    ],
+  },
+  {
+    title: {
+      key: "",
+      label: "How do I view my buy and sell orders?",
+    },
+    steps: [
+      {
+        id: 1,
+        text: "Once logged in, locate ‘My Orders’ tab and click on ‘My Orders’",
+      },
+      {
+        id: 2,
+        text: "You can view your buy orders or click on ‘Sell Orders’ to view your sell orders too",
+      },
+    ],
+  },
+  {
+    title: {
+      key: "",
+      label: "Why does the PayPlux mobile app request special permissions?",
+    },
+    intro: "To fully experience all the features the PayPlux mobile app has to offer, it is essential to grant the app permission on your Android device. Below is a list of what permissions are requested and their purposes.",
+    steps: [
+      {
+        id: 1,
+        text: "SMS - This is to facilitate the mobile number verification and 2-factor authentication.",
+      },
+      {
+        id: 2,
+        text: "Camera - The camera permission allows the QR scanner to operate with fluency",
+      },
+    ],
+  },
+];
+
 export {
   signUp,
   buyBtc,
@@ -601,4 +1027,8 @@ export {
   momo,
   password,
   doubleFA,
+  manualPayments,
+  automatedPayments,
+  mobileApp,
+
 };
