@@ -52,7 +52,7 @@ const AutomatedPayments = () => {
 
           <div className="flex flex-col gap-4 bg-[#F2F3F5] font-latin rounded-lg h-full w-full max-w-[530px] lg:w-[400px] xl:w-[500px] py-5 px-7">
             <h2 className="font-medium text-[#061F3C] text-[20px]">
-              Two Factor Authentication (2FA) Articles
+              Automated Payments Articles
             </h2>
             <div className="flex flex-col gap-4">
               {automatedPayment.map((article) => (

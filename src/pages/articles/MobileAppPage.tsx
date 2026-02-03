@@ -9,7 +9,7 @@ const MobileAppPage = () => {
   return (
     <div>
       <Navbar />
-      <Nav title="Automated Payments" link="/support/mobile-app/page" />
+      <Nav title="Mobile App" link="/support/mobile-app/page" />
       <div className=" flex  items-center justify-center  ">
         <div className="pt-15 pb-20 px-3 lg:px-10 flex flex-col lg:flex-row w-full max-w-[530px] lg:max-w-[1000px] xl:max-w-[1200px] gap-25 lg:gap-10 xl:gap-20">
           <div className="font-latin px-5 flex flex-col gap-10 w-full max-w-[530px] lg:max-w-[660px]">
@@ -52,7 +52,7 @@ const MobileAppPage = () => {
 
           <div className="flex flex-col gap-4 bg-[#F2F3F5] font-latin rounded-lg h-full w-full max-w-[530px] lg:w-[400px] xl:w-[500px] py-5 px-7">
             <h2 className="font-medium text-[#061F3C] text-[20px]">
-              Two Factor Authentication (2FA) Articles
+              Mobile App Articles
             </h2>
             <div className="flex flex-col gap-4">
               {mobile.map((article) => (
