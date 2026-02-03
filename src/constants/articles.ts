@@ -447,6 +447,146 @@ const password = [
   },
 ];
 
+const doubleFA = [
+  {
+    title: {
+      key: "what-is-2fa",
+      label: "What is it?",
+    },
+    intro:
+      "2FA, 2-factor authentication or 2-step verification is an extra layer of security to prove that anyone trying to gain access to an online account is who they say they are. It is an additional step beyond entering your username and password for any online account.",
+  },
+
+  {
+    title: {
+      key: "why-enable-2fa",
+      label: "Why should I enable it?",
+    },
+    intro: "Enabling 2FA on your PayPlux account comes with these benefits:",
+    steps: [
+      {
+        id: 1,
+        text: "Prevent unauthorised access to your Prepaid and Cash-Out Wallets",
+      },
+      {
+        id: 2,
+        text: "Authenticate all transactions with your Prepaid Wallet",
+      },
+      {
+        id: 3,
+        text: "Authenticate all withdrawals from your Cash-Out Wallet",
+      },
+      {
+        id: 4,
+        text: "Authenticate transfers from your Cash-Out Wallet to your Prepaid Wallet",
+      },
+    ],
+  },
+
+  {
+    title: {
+      key: "how-to-activate-2fa",
+      label: "How to activate it?",
+    },
+    intro:
+      "The 2FA on PayPlux works in two ways: SMS authentication or Google Authenticator. Whichever one you choose will be what you use each time you log in to PayPlux henceforth. To set up your 2FA, visit this link:",
+    link: {
+      label: "app.payplux.com/dashboard/settings/security",
+      url: "https://app.payplux.com/dashboard/settings/security",
+    },
+  },
+
+  {
+    title: {
+      key: "activate-2fa-google",
+      label: "Activate 2FA via Google Authenticator",
+    },
+    steps: [
+      {
+        id: 1,
+        text: "Download Google Authenticator from the Play Store or App Store",
+      },
+      {
+        id: 2,
+        text: "Log in to your PayPlux account",
+      },
+      {
+        id: 3,
+        parts: [
+          { type: "text", value: "Open this link: " },
+          {
+            type: "link",
+            label: "app.payplux.com/dashboard/settings/security",
+            url: "https://app.payplux.com/dashboard/settings/security",
+          },
+          {
+            type: "text",
+            value:
+              "to open the Security Tab directly or visit the Settings Page and move to the Security Tab",
+          },
+        ],
+      },
+      {
+        id: 4,
+        text: "Select Google Authenticator from the options provided",
+      },
+      {
+        id: 5,
+        text: "Scan the QR code with the Google Authenticator app and input the 6-digit code",
+      },
+      {
+        id: 6,
+        text: "Your 2FA preference will be updated to Google Authenticator",
+      },
+    ],
+  },
+
+  {
+    title: {
+      key: "activate-2fa-sms",
+      label: "Activate 2FA via SMS",
+    },
+    steps: [
+      {
+        id: 1,
+        text: "Log in to your PayPlux account",
+      },
+      {
+        id: 2,
+        parts: [
+          { type: "text", value: "Open this link: " },
+          {
+            type: "link",
+            label: "app.payplux.com/dashboard/settings/security",
+            url: "https://app.payplux.com/dashboard/settings/security",
+          },
+          {
+            type: "text",
+            value:
+              "to open the Security Tab directly or visit the Settings Page and move to the Security Tab",
+          },
+        ],
+      },
+      {
+        id: 3,
+        text: "Select SMS from the options provided",
+      },
+      {
+        id: 4,
+        text: "You will receive a verification code on your default phone number",
+      },
+      {
+        id: 5,
+        text: "Enter the code in the pop-up box to activate SMS authentication",
+      },
+      {
+        id: 6,
+        text: "Your 2FA preference will be updated to SMS",
+      },
+    ],
+  },
+];
+
 export {
   signUp,
   buyBtc,
@@ -460,4 +600,5 @@ export {
   phoneNumber,
   momo,
   password,
+  doubleFA,
 };

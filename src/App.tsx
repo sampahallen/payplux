@@ -22,6 +22,7 @@ import Id from "./pages/articles/verification/Id";
 import PhoneNumber from "./pages/articles/verification/PhoneNumber";
 import MobileMoney from "./pages/articles/verification/MobileMoney";
 import ChangePasswords from "./pages/articles/verification/ChangePassword";
+import DoubleFA from "./pages/articles/DoubleFA";
 
 const App = () => {
   return (
@@ -59,6 +60,9 @@ const App = () => {
         <Route path="/support/verify-phone-number" element={<PhoneNumber />} />
         <Route path="/support/verify-momo" element={<MobileMoney />} />
         <Route path="/support/change-password" element={<ChangePasswords />} />
+
+        {/* 2FA */}
+        <Route path="/support/2-factor-auth" element={<DoubleFA />} />
 
         <Route path="*" element={<h1>Page not Found</h1>} />
       </Routes>

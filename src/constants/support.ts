@@ -61,15 +61,15 @@ const cards = [
     link: "/support/2-fa",
     articleTitles: [
       {
-        link: "",
+        link: "/support/2-factor-auth",
         text: "What is it?",
       },
       {
-        link: "",
+        link: "/support/2-factor-auth",
         text: "Why should I enable it?",
       },
       {
-        link: "",
+        link: "/support/2-factor-auth",
         text: "How to Activate it?",
       },
     ],
@@ -185,15 +185,18 @@ const accounts = [
 
 const doubleFactor = [
   {
-    link: "",
+    link: "/support/2-factor-auth",
+    key: "",
     text: "What is it?",
   },
   {
-    link: "",
+    link: "/support/2-factor-auth",
+    key: "",
     text: "Why should I enable it?",
   },
   {
-    link: "",
+    link: "/support/2-factor-auth",
+    key: "",
     text: "How to Activate it?",
   },
 ];
