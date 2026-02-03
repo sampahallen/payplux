@@ -11,6 +11,7 @@ import Accounts from "./pages/supports/Accounts";
 import DoubleFactor from "./pages/supports/DoubleFactor";
 import ManualPayments from "./pages/supports/ManualPayments";
 import MobileApp from "./pages/supports/MobileApp";
+import Updates from "./pages/supports/Updates";
 import BuyBitcoin from "./pages/articles/gettingStarted/BuyBitcoin";
 import BuyPfctMny from "./pages/articles/gettingStarted/BuyPfctMny";
 import SellBitcoin from "./pages/articles/gettingStarted/SellBitcoin";
@@ -26,6 +27,7 @@ import DoubleFA from "./pages/articles/DoubleFA";
 import ManualPayment from "./pages/articles/ManualPayment";
 import AutomatedPayments from "./pages/articles/AutomatedPayments";
 import MobileAppPage from "./pages/articles/MobileAppPage";
+import MomoLimit from "./pages/articles/MomoLimits";
 
 const App = () => {
   return (
@@ -43,6 +45,7 @@ const App = () => {
         <Route path="/support/2-fa" element={<DoubleFactor />} />
         <Route path="/support/manual-payments" element={<ManualPayments />} />
         <Route path="/support/mobile-app" element={<MobileApp />} />
+        <Route path="/support/updates" element={<Updates />} />
 
         {/* ARTICLES */}
 
@@ -75,6 +78,9 @@ const App = () => {
 
         {/* Mobile App */}
         <Route path="/support/mobile-app/page" element={<MobileAppPage />} />
+
+        {/* Momo Limit */}
+        <Route path="/support/updates/momo-limit" element={<MomoLimit />} />
 
         <Route path="*" element={<h1>Page not Found</h1>} />
       </Routes>

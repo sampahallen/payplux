@@ -253,6 +253,13 @@ const mobile = [
   },
 ];
 
+const updates = [
+  {
+    link: "/support/updates/momo-limit",
+    text: "BOG & Networks Increase Mobile Money Limits",
+  },
+];
+
 export {
   cards,
   gettingStarted,
@@ -262,4 +269,5 @@ export {
   manualPayment,
   automatedPayment,
   mobile,
+  updates,
 };
