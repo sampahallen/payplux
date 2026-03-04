@@ -6,34 +6,38 @@ import { NavLink } from "react-router";
 
 const Footer = () => {
   return (
-    <div className="flex flex-col lg:flex-row gap-4 items-center justify-center lg:justify-between bg-white py-5 lg:py-15 lg:px-10 xl:px-40 font-latin">
-      <div className="lg:flex lg:flex-col gap-3">
-        <img src={logo} alt="" className="lg:w-25" />
-        <p className="hidden lg:flex text-[14px] text-slate-500 lg:text-[13px]">
-          ©2019 PayPlux. All Rights Reserved.
-        </p>
-      </div>
-      <div className="flex flex-col items-center lg:flex-col lg:items-end gap-3">
-        <div className="flex flex-row gap-8">
-          <a href="">
-            <img src={fb} alt="" className="w-[20px] lg:w-[25px]" />
-          </a>
-          <a href="">
-            <img src={tw} alt="" className="w-[20px] lg:w-[25px]" />
-          </a>
-          <a href="">
-            <img src={ig} alt="" className="w-[20px] lg:w-[25px]" />
-          </a>
+    <div className="py-5 px-4 lg:py-8 flex justify-center w-full">
+      <div className="flex flex-col lg:flex-row gap-4 items-center justify-center lg:justify-between bg-white py-5 lg:py-15 lg:px-10 xl:px-40 font-latin w-full max-w-[530px] lg:max-w-[950px] xl:max-w-[1500px]">
+        <div className="lg:flex lg:flex-col gap-3">
+          <img src={logo} alt="" className="lg:w-25" />
+          <p className="hidden lg:flex text-[14px] text-slate-500 lg:text-[13px]">
+            ©2019 PayPlux. All Rights Reserved.
+          </p>
         </div>
-        <div className="flex flex-row gap-20 lg:gap-10">
-          <NavLink to="/" className="text-[14px] text-slate-500">
-            Home
-          </NavLink>
-          <NavLink to="" className="text-[14px] text-slate-500">
-            Privacy Policy
-          </NavLink>
+        <div className="flex flex-col items-center lg:flex-col lg:items-end gap-3">
+          <div className="flex flex-row gap-8">
+            <a href="https://www.facebook.com/PayPlux/">
+              <img src={fb} alt="" className="w-[20px] lg:w-[25px]" />
+            </a>
+            <a href="https://twitter.com/PayPlux">
+              <img src={tw} alt="" className="w-[20px] lg:w-[25px]" />
+            </a>
+            <a href="https://www.instagram.com/payplux/">
+              <img src={ig} alt="" className="w-[20px] lg:w-[25px]" />
+            </a>
+          </div>
+          <div className="flex flex-row gap-20 lg:gap-10">
+            <NavLink to="/" className="text-[14px] text-slate-500">
+              Home
+            </NavLink>
+            <NavLink to="/privacy-policy" className="text-[14px] text-slate-500">
+              Privacy Policy
+            </NavLink>
+          </div>
+          <p className="text-[14px] text-slate-500 lg:text-[13px] lg:hidden">
+            ©2019 PayPlux. All Rights Reserved.
+          </p>
         </div>
-        <p className="text-[14px] text-slate-500 lg:text-[13px] lg:hidden">©2019 PayPlux. All Rights Reserved.</p>
       </div>
     </div>
   );

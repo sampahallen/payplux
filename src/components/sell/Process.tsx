@@ -17,7 +17,7 @@ const Process = () => {
               {sellProcesses.map((process) => (
                 <div className="flex flex-row gap-4">
                   <div className="">
-                    <p className="font-latin font-normal border-2 border-blue-100 w-7 height-7 items-center rounded-full text-center text-blue-500">
+                    <p className="flex items-center justify-center font-latin font-medium w-9 h-9 rounded-full bg-blue-500 text-white text-sm shadow-sm">
                       {process.id}
                     </p>
                   </div>
@@ -41,7 +41,7 @@ const Process = () => {
           <img
             src={bg}
             alt=""
-            className="absolute max-w-[500px] xs:max-w-[550px] h-[1000px] md:max-w-[800px] xl:w-full xl:object-cover z-0 -top-45 xs:-top-30 left-30 md:left-20 "
+            className="absolute z-0 top-1/2 -translate-y-1/2 h-[1200px] md:h-[1400px] w-[1100px] md:w-[1300px] lg:w-[1500px] right-[-200px]"
           />
         </div>
 

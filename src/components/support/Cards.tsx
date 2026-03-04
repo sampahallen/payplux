@@ -67,17 +67,17 @@ const Cards = () => {
             </div>
             <div className="flex flex-row gap-3 mt-5 text-3xl text-white">
               <div className="bg-[#1c8aff] rounded-full p-2">
-                <a href="">
+                <a href="https://www.facebook.com/PayPlux/">
                   <img src={fb} alt="" className="w-[15px] h-[15px]" />
                 </a>
               </div>
               <div className="bg-[#1c8aff] rounded-full p-2">
-                <a href="">
+                <a href="https://twitter.com/PayPlux">
                   <img src={tw} alt="" className="w-[15px] h-[15px]" />
                 </a>
               </div>
               <div className="bg-[#1c8aff] rounded-full p-2">
-                <a href="">
+                <a href="https://www.instagram.com/payplux/">
                   <img src={ig} alt="" className="w-[15px] h-[15px]" />
                 </a>
               </div>

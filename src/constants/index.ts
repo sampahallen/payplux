@@ -96,15 +96,15 @@ const footerLinks = [
         name: "About",
       },
       {
-        id: "",
+        id: "/support",
         name: "Support",
       },
       {
-        id: "",
+        id: "/buy",
         name: "Buy",
       },
       {
-        id: "",
+        id: "/sell",
         name: "Sell",
       },
     ],
@@ -113,11 +113,11 @@ const footerLinks = [
     name: "Legal",
     links: [
             {
-        id: "",
+        id: "/privacy-policy",
         name: "Privacy Policy"
       },
             {
-        id: "",
+        id: "/terms-and-conditions",
         name: "Terms and Conditions"
       }
     ],
@@ -126,19 +126,19 @@ const footerLinks = [
     name: "Support",
     links: [
             {
-        id: "",
+        id: "/support/signup",
         name: "Create an Account"
       },
             {
-        id: "",
+        id: "/support/top-up",
         name: "Fund your Prepaid Wallet"
       },
             {
-        id: "",
+        id: "/support/getting-started",
         name: "How to Buy Digital Currency"
       },
             {
-        id: "",
+        id: "/support/getting-started",
         name: "How to Sell Digital Currency"
       }
     ],
@@ -147,15 +147,15 @@ const footerLinks = [
     name: "Social",
     links: [
             {
-        id: "",
+        id: "https://web.facebook.com/PayPlux/",
         name: "Facebook"
       },
             {
-        id: "",
+        id: "https://x.com/PayPlux",
         name: "Twitter"
       },
             {
-        id: "",
+        id: "https://www.instagram.com/payplux/",
         name: "Instagram"
       }
     ],
